@@ -25,9 +25,9 @@
     "url": "https://github.com/jill64/attempt.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && publint",
     "test": "vitest run",
-    "lint": "prettier --check . && eslint . && publint",
+    "lint": "prettier --check . && eslint .",
     "format": "prettier --write ."
   },
   "devDependencies": {
