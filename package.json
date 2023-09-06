@@ -24,6 +24,9 @@
     "type": "git",
     "url": "https://github.com/jill64/attempt.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc && publint",
     "test": "vitest run",
