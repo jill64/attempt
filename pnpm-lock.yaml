@@ -11,25 +11,25 @@ dependencies:
 
 devDependencies:
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.6.0
+    specifier: 6.6.0
     version: 6.6.0(@typescript-eslint/parser@6.6.0)(eslint@8.49.0)(typescript@5.2.2)
   '@typescript-eslint/parser':
-    specifier: ^6.6.0
+    specifier: 6.6.0
     version: 6.6.0(eslint@8.49.0)(typescript@5.2.2)
   eslint:
-    specifier: ^8.49.0
+    specifier: 8.49.0
     version: 8.49.0
   prettier:
-    specifier: ^3.0.3
+    specifier: 3.0.3
     version: 3.0.3
   publint:
-    specifier: ^0.2.2
+    specifier: 0.2.2
     version: 0.2.2
   typescript:
-    specifier: ^5.2.2
+    specifier: 5.2.2
     version: 5.2.2
   vitest:
-    specifier: ^0.34.4
+    specifier: 0.34.4
     version: 0.34.4
 
 packages:
