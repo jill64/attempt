@@ -1,5 +1,6 @@
 # attempt
 
+![github-actions-ci](https://github.com/jill64/attempt/actions/workflows/ci.yml/badge.svg)
 [![codecov](https://codecov.io/github/jill64/attempt/graph/badge.svg?token=IP3EIIQRE5)](https://codecov.io/github/jill64/attempt)
 
 Type safe error handling in one-line
