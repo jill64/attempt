@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { attempt } from '../../dist'
+import { attempt } from '../../src'
 import { rise } from '../utils/rise'
 
 test('Rise Error', () => {
