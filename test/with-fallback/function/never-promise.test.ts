@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { attempt } from '../../../dist'
+import { attempt } from '../../../src'
 import { immediateRise } from '../../utils/immediateRise'
 import { lazyRise } from '../../utils/lazyRise'
 
