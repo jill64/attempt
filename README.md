@@ -22,19 +22,15 @@ Objects other than error instances are not captured.
 const result = attempt(() => JSON.parse('Invalid JSON'))
 ```
 
----
-
 Asynchronous functions can also be used.  
 Objects other than error instances are not captured.  
 Errors may be returned either synchronously or asynchronously.  
-See [here](##Appendix) for details.
+See [here](##-Appendix) for details.
 
 ```js
 // Promise<object> | Promise<Error> | Error
 const result = attempt(async () => JSON.parse('Invalid JSON'))
 ```
-
----
 
 Returns the object specified as the second argument when an error is caught.  
 Objects other than error instances are not captured.
@@ -43,8 +39,6 @@ Objects other than error instances are not captured.
 // object | null
 const result = attempt(() => JSON.parse('Invalid JSON'), null)
 ```
-
----
 
 Executes the callback specified in the second argument when an error is caught.  
 The item filtered as an error instance is passed as the first argument of the callback.
@@ -56,8 +50,6 @@ const result = attempt(
   (error) => error?.message
 )
 ```
-
----
 
 The raw thrown object is passed as the second argument to the callback.
 
@@ -97,8 +89,6 @@ const result = func().catch(() => null)
 // `null`
 return result
 ```
-
----
 
 Asynchronous function that throws an error immediately (does not Reject)
 
