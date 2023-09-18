@@ -3,6 +3,6 @@ import { defineConfig } from 'vitest/config'
 export default defineConfig({
   test: {
     includeSource: ['./**/*.{js,ts}'],
-    coverage: { reporter: ['json'] }
+    coverage: { reporter: ['json', 'text'] }
   }
 })
