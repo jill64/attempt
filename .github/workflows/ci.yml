@@ -9,12 +9,3 @@ jobs:
     uses: jill64/reusable-workflow/.github/workflows/build.yml@main
   coverage:
     uses: jill64/reusable-workflow/.github/workflows/coverage.yml@main
-  status-check:
-    needs:
-      - lint
-      - build
-      - coverage
-    if: always()
-    uses: jill64/reusable-workflow/.github/workflows/status-check.yml@main
-    with:
-      needs: ${{ toJson(needs) }}
