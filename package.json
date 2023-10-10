@@ -1,6 +1,6 @@
 {
   "name": "@jill64/attempt",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "description": "Type safe error handling in one-line",
   "main": "dist/index.js",
