@@ -1,4 +1,8 @@
-import isPromise from 'is-promise'
+const isPromise = <T>(obj: unknown): obj is Promise<T> =>
+  !!obj &&
+  (typeof obj === 'object' || typeof obj === 'function') &&
+  'then' in obj &&
+  typeof obj.then === 'function'
 
 type MaybePromise<T> = Promise<T> | T
 
