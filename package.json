@@ -1,6 +1,6 @@
 {
   "name": "@jill64/attempt",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "type": "module",
   "description": "Type safe error handling in one-line",
   "main": "dist/index.js",
@@ -17,9 +17,6 @@
       "default": "./dist/index.js"
     }
   },
-  "keywords": [
-    "error"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/attempt.git"
@@ -40,8 +37,5 @@
     "@vitest/coverage-v8": "0.34.6",
     "typescript": "5.2.2",
     "vitest": "0.34.6"
-  },
-  "dependencies": {
-    "is-promise": "4.0.0"
   }
 }
