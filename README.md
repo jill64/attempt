@@ -1,11 +1,12 @@
-# attempt
+# @jill64/attempt
 
 [![npm](https://img.shields.io/npm/v/%40jill64%2Fattempt)](https://npmjs.com/package/@jill64/attempt)
+[![npm](https://img.shields.io/npm/l/%40jill64%2Fattempt)](https://npmjs.com/package/@jill64/attempt)
 [![codecov](https://codecov.io/github/jill64/attempt/graph/badge.svg?token=IP3EIIQRE5)](https://codecov.io/github/jill64/attempt)
 
 Type safe error handling in one-line
 
-## Install
+## Installation
 
 ```sh
 npm i @jill64/attempt
