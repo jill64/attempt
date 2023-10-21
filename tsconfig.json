@@ -2,7 +2,6 @@
   "compilerOptions": {
     "outDir": "dist",
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "module": "NodeNext",
     "moduleResolution": "NodeNext"
