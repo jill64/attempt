@@ -1,10 +1,12 @@
-# @jill64/attempt
+<!----- BEGIN GHOST DOCS HEADER ----->
 
-[![npm](https://img.shields.io/npm/v/%40jill64%2Fattempt)](https://npmjs.com/package/@jill64/attempt)
-[![npm](https://img.shields.io/npm/l/%40jill64%2Fattempt)](https://npmjs.com/package/@jill64/attempt)
-[![codecov](https://codecov.io/github/jill64/attempt/graph/badge.svg?token=IP3EIIQRE5)](https://codecov.io/github/jill64/attempt)
+# attempt
+
+[![npm-version](https://img.shields.io/npm/v/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-license](https://img.shields.io/npm/l/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![codecov-coverage](https://codecov.io/gh/jill64/attempt/graph/badge.svg)](https://codecov.io/gh/jill64/attempt)
 
 Type safe error handling in one-line
+
+<!----- END GHOST DOCS HEADER ----->
 
 ## Installation
 
