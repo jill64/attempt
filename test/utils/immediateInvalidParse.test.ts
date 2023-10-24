@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { immediateInvalidParse } from './immediateInvalidParse'
+import { immediateInvalidParse } from './immediateInvalidParse.js'
 
 test('Empty String', () => {
   expect(() => immediateInvalidParse('')).toThrowError()

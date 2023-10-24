@@ -1,4 +1,4 @@
-import { rise } from './rise'
+import { rise } from './rise.js'
 
 export const invalidParse = (projectile: string | Error) => {
   try {

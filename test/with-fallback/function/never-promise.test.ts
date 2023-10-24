@@ -1,7 +1,7 @@
 import { expect, test } from 'vitest'
-import { attempt } from '../../../src'
-import { immediateRise } from '../../utils/immediateRise'
-import { lazyRise } from '../../utils/lazyRise'
+import { attempt } from '../../../src/index.js'
+import { immediateRise } from '../../utils/immediateRise.js'
+import { lazyRise } from '../../utils/lazyRise.js'
 
 test('Lazy Error', () => {
   const err = attempt(

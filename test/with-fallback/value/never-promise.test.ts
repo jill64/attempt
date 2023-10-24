@@ -1,8 +1,8 @@
 import { expect, test } from 'vitest'
-import { attempt } from '../../../src'
-import { fate } from '../../utils/fate'
-import { immediateRise } from '../../utils/immediateRise'
-import { lazyRise } from '../../utils/lazyRise'
+import { attempt } from '../../../src/index.js'
+import { fate } from '../../utils/fate.js'
+import { immediateRise } from '../../utils/immediateRise.js'
+import { lazyRise } from '../../utils/lazyRise.js'
 
 test('Lazy Error', () => {
   const err = attempt(() => lazyRise(new Error('Test')), null)

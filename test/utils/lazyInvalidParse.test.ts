@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { lazyInvalidParse } from './lazyInvalidParse'
+import { lazyInvalidParse } from './lazyInvalidParse.js'
 
 test('Empty String', () => {
   expect(lazyInvalidParse('')).rejects.toThrowError()

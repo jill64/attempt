@@ -1,5 +1,5 @@
-import { fate } from './fate'
-import { rise } from './rise'
+import { fate } from './fate.js'
+import { rise } from './rise.js'
 
 export const immediateRise = (projectile: string | Error) => {
   return fate(rise(projectile))

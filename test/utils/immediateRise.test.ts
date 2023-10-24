@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { immediateRise } from './immediateRise'
+import { immediateRise } from './immediateRise.js'
 
 test('Empty String', () => {
   expect(() => immediateRise('')).toThrowError()

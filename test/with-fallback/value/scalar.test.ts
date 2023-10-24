@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { attempt } from '../../../src'
+import { attempt } from '../../../src/index.js'
 import { invalidParse } from '../../utils/invalidParse'
 
 test('Primitive', () => {
