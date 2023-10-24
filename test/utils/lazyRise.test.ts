@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { lazyRise } from './lazyRise'
+import { lazyRise } from './lazyRise.js'
 
 test('Empty String', () => {
   expect(lazyRise('')).rejects.toThrowError()

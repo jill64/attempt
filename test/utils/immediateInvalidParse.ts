@@ -1,5 +1,5 @@
-import { fate } from './fate'
-import { invalidParse } from './invalidParse'
+import { fate } from './fate.js'
+import { invalidParse } from './invalidParse.js'
 
 export const immediateInvalidParse = (projectile: string | Error) => {
   return fate(invalidParse(projectile))

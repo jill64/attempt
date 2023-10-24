@@ -1,5 +1,5 @@
 import { delay } from './delay'
-import { rise } from './rise'
+import { rise } from './rise.js'
 
 export const lazyRise = async (projectile: string | Error) => {
   await delay(100)

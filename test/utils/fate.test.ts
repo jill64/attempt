@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { fate } from './fate'
+import { fate } from './fate.js'
 
 test('Primitive', () => {
   expect(fate(123)).toEqual(new Promise((resolve) => resolve(123)))

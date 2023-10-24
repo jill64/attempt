@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { attempt } from '../../src'
-import { rise } from '../utils/rise'
+import { attempt } from '../../src/index.js'
+import { rise } from '../utils/rise.js'
 
 test('Rise Error', () => {
   const err = attempt(() => rise(new Error('Test')))

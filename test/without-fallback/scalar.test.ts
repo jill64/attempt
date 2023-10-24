@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { attempt } from '../../src'
-import { invalidParse } from '../utils/invalidParse'
+import { attempt } from '../../src/index.js'
+import { invalidParse } from '../utils/invalidParse.js'
 
 test('Primitive', () => {
   const n = attempt(() => 1)

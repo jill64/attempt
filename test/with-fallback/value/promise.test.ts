@@ -1,8 +1,8 @@
 import { expect, test } from 'vitest'
-import { attempt } from '../../../src'
-import { fate } from '../../utils/fate'
-import { immediateInvalidParse } from '../../utils/immediateInvalidParse'
-import { lazyInvalidParse } from '../../utils/lazyInvalidParse'
+import { attempt } from '../../../src/index.js'
+import { fate } from '../../utils/fate.js'
+import { immediateInvalidParse } from '../../utils/immediateInvalidParse.js'
+import { lazyInvalidParse } from '../../utils/lazyInvalidParse.js'
 
 test('Primitive', async () => {
   const n = attempt(async () => 1, null)

@@ -1,5 +1,5 @@
 import { delay } from './delay'
-import { invalidParse } from './invalidParse'
+import { invalidParse } from './invalidParse.js'
 
 export const lazyInvalidParse = async (projectile: string | Error) => {
   await delay(100)

@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { rise } from './rise'
+import { rise } from './rise.js'
 
 test('Empty String', () => {
   expect(() => rise('')).toThrowError()
