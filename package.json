@@ -24,6 +24,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "error-handle",
+    "type-safe",
+    "oneliner",
+    "try-catch"
+  ],
   "scripts": {
     "build": "tsc && npx publint",
     "prepack": "npm run build",
