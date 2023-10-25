@@ -2,7 +2,7 @@
 
 # attempt
 
-[![npm-version](https://img.shields.io/npm/v/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-license](https://img.shields.io/npm/l/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![test.yml](https://github.com/jill64/attempt/actions/workflows/test.yml/badge.svg)](https://github.com/jill64/attempt/actions/workflows/test.yml)
+[![npm-version](https://img.shields.io/npm/v/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-license](https://img.shields.io/npm/l/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![ci.yml](https://github.com/jill64/attempt/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/attempt/actions/workflows/ci.yml)
 
 Type safe error handling in one-line
 
