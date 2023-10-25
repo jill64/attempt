@@ -3,3 +3,4 @@ branch-protection:
     required_status_checks:
       contexts:
         - test / run-vitest
+
