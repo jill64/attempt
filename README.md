@@ -8,22 +8,14 @@ Type safe error handling in one-line
 
 <!----- END GHOST DOCS HEADER ----->
 
-## Installation
-
-```sh
-npm i @jill64/attempt
-```
-
-```js
-import { attempt } from '@jill64/attempt'
-```
-
 ## Usage
 
 Include error objects in the return value with a syntax similar to `Lodash.attempt`.  
 Objects other than error instances are not captured.
 
 ```js
+import { attempt } from '@jill64/attempt'
+
 // object | Error
 const result = attempt(() => JSON.parse('Invalid JSON'))
 ```
@@ -34,6 +26,8 @@ Errors may be returned either synchronously or asynchronously.
 See [here](##-Appendix) for details.
 
 ```js
+import { attempt } from '@jill64/attempt'
+
 // Promise<object> | Promise<Error> | Error
 const result = attempt(async () => JSON.parse('Invalid JSON'))
 ```
@@ -42,6 +36,8 @@ Returns the object specified as the second argument when an error is caught.
 Objects other than error instances are not captured.
 
 ```js
+import { attempt } from '@jill64/attempt'
+
 // object | null
 const result = attempt(() => JSON.parse('Invalid JSON'), null)
 ```
@@ -50,6 +46,8 @@ Executes the callback specified in the second argument when an error is caught.
 The item filtered as an error instance is passed as the first argument of the callback.
 
 ```js
+import { attempt } from '@jill64/attempt'
+
 // object | (string(error.message) | undefined)
 const result = attempt(
   () => JSON.parse('Invalid JSON'),
@@ -60,6 +58,8 @@ const result = attempt(
 The raw thrown object is passed as the second argument to the callback.
 
 ```js
+import { attempt } from '@jill64/attempt'
+
 // object | 'Syntax Error' | null
 const result = attempt(
   () => JSON.parse('Invalid JSON'),
