@@ -6,6 +6,12 @@
 
 Type safe error handling in one-line
 
+## Install
+
+```sh
+npm i @jill64/attempt
+```
+
 <!----- END GHOST DOCS HEADER ----->
 
 ## Usage
