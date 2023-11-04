@@ -9,7 +9,9 @@
   "bugs": "https://github.com/jill64/attempt/issues",
   "homepage": "https://github.com/jill64/attempt#readme",
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -25,10 +27,8 @@
     "access": "public"
   },
   "keywords": [
-    "error-handle",
-    "type-safe",
-    "oneliner",
-    "try-catch"
+    "error-handling",
+    "utility"
   ],
   "scripts": {
     "build": "tsc && npx publint",
