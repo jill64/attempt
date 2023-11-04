@@ -4,7 +4,7 @@
 
 [![npm-version](https://img.shields.io/npm/v/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-license](https://img.shields.io/npm/l/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/attempt)](https://npmjs.com/package/@jill64/attempt) [![ci.yml](https://github.com/jill64/attempt/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/attempt/actions/workflows/ci.yml) [![codecov-coverage](https://codecov.io/gh/jill64/attempt/graph/badge.svg)](https://codecov.io/gh/jill64/attempt)
 
-Type safe error handling in one-line
+➖ Type safe error handling in one-line
 
 ## Install
 
