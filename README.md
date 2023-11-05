@@ -26,6 +26,8 @@ import { attempt } from '@jill64/attempt'
 const result = attempt(() => JSON.parse('Invalid JSON'))
 ```
 
+### Promise
+
 Asynchronous functions can also be used.  
 Objects other than error instances are not captured.  
 Errors may be returned either synchronously or asynchronously.  
@@ -38,6 +40,8 @@ import { attempt } from '@jill64/attempt'
 const result = attempt(async () => JSON.parse('Invalid JSON'))
 ```
 
+### Fallback Value
+
 Returns the object specified as the second argument when an error is caught.  
 Objects other than error instances are not captured.
 
@@ -47,6 +51,8 @@ import { attempt } from '@jill64/attempt'
 // object | null
 const result = attempt(() => JSON.parse('Invalid JSON'), null)
 ```
+
+### Fallback Function
 
 Executes the callback specified in the second argument when an error is caught.  
 The item filtered as an error instance is passed as the first argument of the callback.
@@ -60,6 +66,8 @@ const result = attempt(
   (error) => error?.message
 )
 ```
+
+### Catch All Fallback Function
 
 The raw thrown object is passed as the second argument to the callback.
 
@@ -81,7 +89,7 @@ const result = attempt(
 
 ## Appendix
 
-### Why is an asynchronous function not returned as a Promise<Error> when specified?
+### Why is an asynchronous function not returned as a `Promise<Error>` when specified?
 
 Asynchronous function to Reject
 
