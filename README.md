@@ -69,7 +69,7 @@ const result = attempt(
 
 ### Catch All Fallback Function
 
-The raw thrown object is passed as the second argument to the callback.  
+The raw thrown object is passed as the second argument to the callback.
 
 ```js
 import { attempt } from '@jill64/attempt'
