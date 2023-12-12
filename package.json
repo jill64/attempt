@@ -2,16 +2,19 @@
   "name": "@jill64/attempt",
   "version": "1.1.0",
   "type": "module",
-  "description": "🛞 Type safe error handling in one-line",
+  "description": "💠 Type safe error handling in one-line",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/attempt/issues",
   "homepage": "https://github.com/jill64/attempt#readme",
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "exports": {
     ".": {
@@ -21,13 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/attempt.git"
+    "url": "https://github.com/jill64/attempt.git",
+    "image": "https://opengraph.githubassets.com/5961066cf2f98144ee83483fef005e7e1202e43bbaa08528493c17d89e87d808/jill64/attempt"
   },
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
     "error-handling",
+    "type-safe",
     "utility"
   ],
   "scripts": {
@@ -37,10 +42,10 @@
     "lint": "npx eslint . && npx depcheck",
     "format": "npx prettier --write ."
   },
+  "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.13.2",
-    "@typescript-eslint/parser": "6.13.2",
-    "eslint-plugin-deprecation": "2.0.0",
+    "@jill64/eslint-config-ts": "1.0.2",
+    "@jill64/prettier-config": "1.0.0",
     "typescript": "5.3.3",
     "vitest": "1.0.4"
   }
