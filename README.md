@@ -6,13 +6,13 @@
 
 🛞 Type safe error handling in one-line
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Install
 
 ```sh
 npm i @jill64/attempt
 ```
-
-<!----- END GHOST DOCS HEADER ----->
 
 ## Usage
 
