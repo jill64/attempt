@@ -136,3 +136,11 @@ return result
 Although this is catchable in JavaScript syntax, it is actually thrown synchronously and cannot be caught.  
 Also, there is no way to check if a `Promise` is returned before the function is executed.  
 Therefore, the error return value of an asynchronous function is always `Error | Promise<Error>`.
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
