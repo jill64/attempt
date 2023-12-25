@@ -1,8 +1,12 @@
 <!----- BEGIN GHOST DOCS HEADER ----->
 
-# attempt
+# @jill64/attempt
 
-<!----- BEGIN GHOST DOCS BADGES -----><a href="https://npmjs.com/package/@jill64/attempt"><img src="https://img.shields.io/npm/v/@jill64/attempt" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/attempt"><img src="https://img.shields.io/npm/l/@jill64/attempt" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/attempt"><img src="https://img.shields.io/npm/dm/@jill64/attempt" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/attempt"><img src="https://img.shields.io/bundlephobia/min/@jill64/attempt" alt="npm-min-size" /></a> <a href="https://github.com/jill64/attempt/actions/workflows/ci.yml"><img src="https://github.com/jill64/attempt/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a><!----- END GHOST DOCS BADGES ----->
+
+<!----- BEGIN GHOST DOCS BADGES ----->
+<a href="https://npmjs.com/package/@jill64/attempt"><img src="https://img.shields.io/npm/v/@jill64/attempt" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/attempt"><img src="https://img.shields.io/npm/l/@jill64/attempt" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/attempt"><img src="https://img.shields.io/npm/dm/@jill64/attempt" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/attempt"><img src="https://img.shields.io/bundlephobia/min/@jill64/attempt" alt="npm-min-size" /></a> <a href="https://github.com/jill64/attempt/actions/workflows/ci.yml"><img src="https://github.com/jill64/attempt/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a>
+<!----- END GHOST DOCS BADGES ----->
+
 
 💠 Type safe error handling in one-line
 
