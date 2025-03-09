@@ -36,17 +36,18 @@
     "utility"
   ],
   "scripts": {
-    "build": "tsc && npx publint",
-    "prepack": "npm run build",
+    "build": "tsc && bunx publint",
+    "prepack": "bun run build",
     "test": "vitest",
-    "lint": "npx eslint . && npx depcheck",
-    "format": "npx prettier --write ."
+    "lint": "eslint . && bunx depcheck",
+    "format": "bunx prettier --write ."
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-ts": "2.0.16",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.8.2",
-    "vitest": "3.0.6"
+    "vitest": "3.0.6",
+    "eslint": "9.22.0"
   }
 }
