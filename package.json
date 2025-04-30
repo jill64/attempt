@@ -1,6 +1,6 @@
 {
   "name": "@jill64/attempt",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "type": "module",
   "description": "💠 Type safe error handling in one-line",
   "main": "dist/index.js",
@@ -25,7 +25,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/attempt.git",
-    "image": "https://opengraph.githubassets.com/485f7a6fa20bf8d05493d629e8c59c6a51b0ee910f1c47804497794585f6d588/jill64/attempt"
+    "image": "https://opengraph.githubassets.com/4e7f2b39df1c08f91568f269f156c412620be91478547cfb20212fa98bc9b8af/jill64/attempt"
   },
   "publishConfig": {
     "access": "public"
