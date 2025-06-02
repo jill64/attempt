@@ -25,7 +25,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/attempt.git",
-    "image": "https://opengraph.githubassets.com/0919d53823a242a3e33381b4c673de2653fef1556067fb8b2e9c04c9cdaf6e41/jill64/attempt"
+    "image": "https://opengraph.githubassets.com/6b3976a5b79fb4108100ebf3eccc87b8dc040b9bde0364c7643622f789da2658/jill64/attempt"
   },
   "publishConfig": {
     "access": "public"
